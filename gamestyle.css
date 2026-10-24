@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+#canvas1{
+    border: black 2px solid;
+    background-color: rgb(225, 249, 255);
+max-width: 100%;
+max-height: 100%;
+
+display: none;
+}
+
+#witch{
+    display: none;
+}
+
+#witchF{
+    display: none;
+}
+
+p{
+    font-family: Rubik;
+    font-size: 1.3vw;
+}
+
+h1{
+    font-family: VT323;
+    font-size: 10vw;
+    color: #8f5677;
+    
+}
+#gameStart{
+    background-color: #fbfbfb;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: #fbfbfb;
+    border: #8f5677 4px groove;
+    border-radius: 25px;
+    font-size: 2vw;
+    padding: .5em;
+    color: #8f5677;
+    font-family: rubik;
+    margin-top: 3rem;
+}
