@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#e{
+    display: none;
+}
+#e{
+    display: none;
+}
 body{
     background-color: rgb(34, 34, 34);
     display: flex;
@@ -38,12 +43,13 @@ display: none;
 p{
     font-family: Rubik;
     font-size: 1.3vw;
+    display: none;
 }
 #dia{
     background-color: #fbfbfb;
     border: 5px  #537a52 groove;
     color: #2d282f;
-    display: flex;
+    display: none;
     width: 60%;
         position: absolute;
     top: 5vh;
@@ -89,6 +95,16 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#dead{
+    background-color: #2d282e;
+    height: 100vh;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:  #dc9593;
 }
 
 button{

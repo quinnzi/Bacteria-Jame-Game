@@ -11,13 +11,18 @@
 
 </head>
 <body>
-    <section id="gameStart">
+        <section id="gameStart">
         <h1>Go Bact Home</h1>
         <button id="start">Get to Dinner</button>
     </section>
+        <section id="dead">
+        <h1>Game Over!</h1>
+        <p>You shrunk to the size of an atom and got plowed over by O2 molecules :D</p>
+        <button id="try">Try Again</button>
+    </section>
     <p id="int" style="user-select: none;"></p>
     <div id="dia">
-        <h1 id="char" style="user-select: none;">Nameeeeeeeeee</h1>
+        <h1 id="char" style="user-select: none;"></h1>
         <div>
             <p id="log" style="user-select: none;"></p>
         </div>
@@ -28,6 +33,8 @@
 <img src="witch-spritesheet.png" id="witchF">
 <img src="Bacteria.png" id="bac">
 <img src="floor.png" id="floor">
+<img src="enemies (1).png" id="e">
+<img src="mfff.png" id="forest">
     </canvas>
 </body>
 <script>
@@ -36,6 +43,8 @@
         document.getElementById("gameStart").style.display = 'none'
           document.getElementById("canvas1").style.display = 'block'
     })
+
+
 </script>
 <script src="game.mjs" type="module"></script>
 </html>
