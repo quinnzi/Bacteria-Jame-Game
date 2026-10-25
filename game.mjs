@@ -1,6 +1,7 @@
 import {Player} from './player.mjs'
 import { Input } from './input.mjs'
 import { state } from './State.mjs'
+import { screen } from './player.mjs'
 import { StateMachine } from './State.mjs'
 window.addEventListener('load', function(){
     let moveTim = 200
@@ -15,6 +16,7 @@ window.addEventListener('load', function(){
         constructor(width, height) {
             this.width = width
             this.height = height
+            this.bw = gameBoard.width = window.innerWidth
             this.player = new Player(this)
              this.idle = document.getElementById('witch')
              this.input = new Input()
@@ -27,11 +29,13 @@ window.addEventListener('load', function(){
         this.state.current()
         }
 
-        
+
         draw(context, state){
+           
             console.log('state: ' + state)
            if(state === 'idle'){
             if(this.incre % 2 === 0){
+
            this.player.draw(context)
             this.incre++
         }

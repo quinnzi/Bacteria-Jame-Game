@@ -25,7 +25,12 @@ display: none;
 #witch{
     display: none;
 }
-
+#bac{
+    display: none;
+}
+#floor{
+    display: none;
+}
 #witchF{
     display: none;
 }
@@ -34,12 +39,47 @@ p{
     font-family: Rubik;
     font-size: 1.3vw;
 }
-
+#dia{
+    background-color: #fbfbfb;
+    border: 5px  #537a52 groove;
+    color: #2d282f;
+    display: flex;
+    width: 60%;
+        position: absolute;
+    top: 5vh;
+     min-height: 15vh;
+}
+#dia div{
+    width: 80%;
+}
+#char{
+    background-color:  #537a52;
+    color: #fbfbfb;
+    font-size: 4vw;
+    width: 20%;
+    text-align: center;
+    padding: 2rem;
+}
+#log{
+    padding: 2rem;
+    text-align:center;
+      font-family: VT323;
+      font-size: 2.5vw;
+}
 h1{
     font-family: VT323;
     font-size: 10vw;
     color: #8f5677;
     
+}
+#int{
+    position: absolute;
+    bottom: 20vh;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    font-family: VT323;
+     font-size: 2.3vw;
 }
 #gameStart{
     background-color: #fbfbfb;
