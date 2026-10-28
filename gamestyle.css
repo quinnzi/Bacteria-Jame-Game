@@ -91,7 +91,7 @@ h1{
     background-color: #fbfbfb;
     height: 100vh;
     width: 100%;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -116,4 +116,44 @@ button{
     color: #8f5677;
     font-family: rubik;
     margin-top: 3rem;
+}
+#bar{
+    width: 30vw;
+    height: 6vh;
+            position: absolute;
+    bottom: 5vh;
+  display: none;
+    background-color: #fbfbfb;
+    border: #2d282e 4px groove;
+}
+#mh{
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+    height: 6vh;
+    position: absolute;
+    bottom: 5vh;
+    right: 2vh;
+
+ 
+  
+}
+
+#health{
+    width: 100%;
+    background-color: #059a86;
+   height: 100%;
+     
+}
+
+#gameOver{
+        background-color: #fbfbfb;
+    height: 100vh;
+    width: 100%;
+    display: "none";
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

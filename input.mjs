@@ -7,17 +7,6 @@ export class Input {
                 ev.preventDefault();
                 console.log(ev.code)
                 switch (ev.code) {
-                    case 'ArrowDown':
-                        if(this.keys.indexOf(ev.code) === -1){
-                            this.keys.push(ev.code)
-                        }
-                        break;
-
-                        case 'ArrowUp':
-                        if(this.keys.indexOf(ev.code) === -1){
-                            this.keys.push(ev.code)
-                        }
-                        break;
 
                         case 'ArrowRight':
                         if(this.keys.indexOf(ev.code) === -1){
@@ -40,9 +29,20 @@ export class Input {
                         if(this.keys.indexOf(ev.code) === -1){
                             this.keys.push(ev.code)
                         }
-
+                        case 'KeyD':
+                        if(this.keys.indexOf(ev.code) === -1){
+                            this.keys.push(ev.code)
+                        }
                         break;
-                         
+                        case 'KeyS':
+                        if(this.keys.indexOf(ev.code) === -1){
+                            this.keys.push(ev.code)
+                        }
+                                                case 'KeyR':
+                        if(this.keys.indexOf(ev.code) === -1){
+                            this.keys.push(ev.code)
+                        }
+                        break;
                         case 'Space':
                         if(this.keys.indexOf(ev.code) === -1){
                             this.keys.push(ev.code)

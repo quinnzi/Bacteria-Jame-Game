@@ -16,7 +16,8 @@ window.addEventListener('load', function(){
         constructor(width, height) {
             this.width = width
             this.height = height
-            this.bw = gameBoard.width = window.innerWidth
+            this.bh = gameBoard.height = window.innerHeight
+            this.bw = gameBoard.width 
             this.player = new Player(this)
              this.idle = document.getElementById('witch')
              this.input = new Input()
@@ -25,6 +26,11 @@ window.addEventListener('load', function(){
              
         }
         update(context){
+                if(this.player.over === true){
+                    console.log("are you serious rn")
+        const talking = setInterval(this.player.help, 3500)
+        return
+    }
         this.player.update(this.input.keys, context)
         this.state.current()
         }
@@ -47,7 +53,7 @@ window.addEventListener('load', function(){
            
         }
     }
-    
+
     const game = new Game(gameBoard.width, gameBoard.height)
 
     function move(){
