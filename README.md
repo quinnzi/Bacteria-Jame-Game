@@ -12,28 +12,28 @@ All of the game visuals were displayed handled by HTML canvas with the assistanc
 I used clearRect() to clear the whole canvas before I drew something--like the player or an enemy. I used the drawimage to draw the sprites and enemies. The code is a mess, because I did not want to leave the comfort of player.mjs. 
 <br>
 <br>
-Game.mjs is responsible for the creation of the game and is linked to index.html directly. It basically connects all of the JS modules together.
+- Game.mjs is responsible for the creation of the game and is linked to index.html directly. It basically connects all of the JS modules together.
 <br>
-Player.mjs deals with basically everything--like player and enemy movement, dialogue, player inventory, player health, etc. 
+- Player.mjs deals with basically everything--like player and enemy movement, dialogue, player inventory, player health, etc. 
 <br>
-State.mjs deals with if the player is idle or moving.If its idle, then the drawImage function in Player.mjs will alternate between the idle images in the player's sprite sheet. If the player is moving, it will signal for the draw functions to draw the moving sprites.  
+- State.mjs deals with if the player is idle or moving.If its idle, then the drawImage function in Player.mjs will alternate between the idle images in the player's sprite sheet. If the player is moving, it will signal for the draw functions to draw the moving sprites.  
 <br>
-Input.mjs is what detects the keys that a player is using and pushes them to an array that the other modules can use.  
+- Input.mjs is what detects the keys that a player is using and pushes them to an array that the other modules can use.  
 
 <h2>How to play!</h2>
 <br>
 First off, here are the controls:
 <br>
 <br>
-Arrow Keys: moving left & right
+- Arrow Keys: moving left & right
 <br>
-E: interact
+- E: interact
 <br>
-R: rocket launcher
+- R: rocket launcher
 <br>
-S: launch pebble/stone
+- S: launch pebble/stone
 <br>
-D: launch knife/dagger
+- D: launch knife/dagger
 
 <h3>Where to play</h3>
 If you don't want to play by clicking on this link: https://qweeez.itch.io/get-bact-home, you should be able to open the html file and play it, provided you downloaded every file in the repo.
@@ -85,7 +85,7 @@ I apologize in advance for the many many MANY bugs you may encounter. This is my
 
 Graphics: Made by me :D with piskel templates
 
-Sound: non-existent bs time constraints </3
+Sound: non-existent bc time constraints </3
 
 
 
