@@ -4,15 +4,18 @@ Hi there! This is my first time making a game! I briefly started one once, but t
 <br>
 <h2>How did I make it?></h2>
 <br>
-  I did not use a game engine, as I didn't have time in my schedule to learn one before the jam. I'm most comfortable with javascript and HTML, so I decided to go with the option of HTML canvas and vanilla JS, even though the rendering and the coding and the entire experience caused me so much pain.
+  I did not use a game engine, as I didn't have time in my schedule to learn one before the jam. I'm most comfortable with javascript and HTML, so I decided to go with the option of HTML canvas and vanilla JS, even though the rendering and the coding and the entire experience caused me so much pain. The code is a mess, because I did not want to leave the comfort of player.mjs. 
 <br>
 <br>
-All of the game visuals were displayed by HTML canvas with the assistance of the requestAnimationframe function, clearRect function, and drawImage function. The requestAnimation function calls your clearRect functions and the drawImage functions continously, so the game draws the images smoothly in real time rather than being slow and not immediately reactant to the controls. 
 <br>
-I used clearRect() to clear the whole canvas before I drew something--like the player or an enemy. I used the drawimage to draw the sprites and enemies. The code is a mess, because I did not want to leave the comfort of player.mjs. 
+All of the game visuals were displayed by HTML canvas with the assistance of the requestAnimationframe function, clearRect function, and drawImage function. The requestAnimationframe function calls your clearRect and drawImage function if you provide them within the function parameter of the requestAnimationframe function. This way, the game draws the images smoothly in real time rather than being slow and not immediately reactant to the controls. 
+<br>
+I had to use clearRect() to clear the whole canvas before I drew something--like the player or an enemy. Otherwise, the player image would double because you never cleared it.
+<br>
+I used the drawimage function to draw the sprites and enemies. 
 <br>
 <br>
-- Game.mjs is responsible for the creation of the game and is linked to index.html directly. It basically connects all of the JS modules together.
+- Game.mjs is responsible for the creation of the game and is linked to index.html directly. You'll find the requestanimationframe function here. This file basically connects all of the JS modules together.
 <br>
 - Player.mjs deals with basically everything--like player and enemy movement, dialogue, player inventory, player health, etc. 
 <br>
@@ -22,7 +25,7 @@ I used clearRect() to clear the whole canvas before I drew something--like the p
 
 <h2>How to play!</h2>
 <br>
-First off, here are the controls:
+<h3>Here are the controls:</h3>
 <br>
 <br>
 - Arrow Keys: moving left & right
@@ -86,8 +89,14 @@ I apologize in advance for the many many MANY bugs you may encounter. This is my
 <br>
 <br>
 <h2>Credits:</h2>
-
+<br>
 Graphics: Made by me :D with piskel templates
+<br>
+Player template: Fly on piskel
+<br>
+Mushroom forest templat: By Ansimuz on piskel
+<br>
+<br>
 
 Sound: non-existent bc time constraints </3
 
