@@ -10,7 +10,9 @@ Hi there! This is my first time making a game! I briefly started one once, but t
 <br>
 All of the game visuals were displayed by HTML canvas with the assistance of the requestAnimationframe function, clearRect function, and drawImage function. The requestAnimationframe function calls your clearRect and drawImage function if you provide them within the function parameter of the requestAnimationframe function. This way, the game draws the images smoothly in real time rather than being slow and not immediately reactant to the controls. 
 <br>
+<br>
 I had to use clearRect() to clear the whole canvas before I drew something--like the player or an enemy. Otherwise, the player image would double because you never cleared it.
+<br>
 <br>
 I used the drawimage function to draw the sprites and enemies. 
 <br>
