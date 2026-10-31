@@ -41,7 +41,10 @@ If you don't want to play by clicking on this link: https://qweeez.itch.io/get-b
 <br>
 Get Bact Home is a simple game, where a girl is shrunk by an evil magic star while trying to get to her parent's dinner. She now has to try to survive on a leaf's surface, being about the size of a leaf cell. 
 <br>
+<br>
 Every time she gets hurt (physically or emotionally), she finds that she shrinks. (The game was meant to be a metaphor about how words can make you feel small, but that was tall ask for my first game--I know that now.) She needs to get to the end of mushroom forest to grow large again, but she has to acquire a weapon (or three!) to safely pass through. Your goal is to acquire weapons from the bacteria & make it safely through mushroom forest. 
+<br>
+<br>
 <b>To beat the game, you have to kill all of the enemies in mushroom forest without dying/shrinking completely. You can do this by obtaining weapons from different bacteria and using them on enemies with the keys in the controls. The weapon with the highest damage is the rocket launcher (10 damage) and Steph has it.</b> 
 <br>
 <br>
