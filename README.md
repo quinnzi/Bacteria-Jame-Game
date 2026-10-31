@@ -17,6 +17,7 @@ I had to use clearRect() to clear the whole canvas before I drew something--like
 I used the drawimage function to draw the sprites and enemies. 
 <br>
 <br>
+<h3>JS Modules</h3>
 - Game.mjs is responsible for the creation of the game and is linked to index.html directly. You'll find the requestanimationframe function here. This file basically connects all of the JS modules together.
 <br>
 - Player.mjs deals with basically everything--like player and enemy movement, dialogue, player inventory, player health, etc. 
@@ -28,7 +29,6 @@ I used the drawimage function to draw the sprites and enemies.
 <h2>How to play!</h2>
 <br>
 <h3>Here are the controls:</h3>
-<br>
 <br>
 - Arrow Keys: moving left & right
 <br>
