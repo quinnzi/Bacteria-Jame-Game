@@ -7,7 +7,7 @@ Hi there! This is my first time making a game! I briefly started one once, but t
   I did not use a game engine, as I didn't have time in my schedule to learn one before the jam. I'm most comfortable with javascript and HTML, so I decided to go with the option of HTML canvas and vanilla JS, even though the rendering and the coding and the entire experience caused me so much pain.
 <br>
 <br>
-All of the game visuals were displayed handled by HTML canvas with the assistance of the requestAnimationframe function, clearRect function, and drawImage function. The requestAnimation function calls your clearRect functions and the drawImage functions continously, so the game draws the images smoothly in real time rather than being slow and not immediately reactant to the controls. 
+All of the game visuals were displayed by HTML canvas with the assistance of the requestAnimationframe function, clearRect function, and drawImage function. The requestAnimation function calls your clearRect functions and the drawImage functions continously, so the game draws the images smoothly in real time rather than being slow and not immediately reactant to the controls. 
 <br>
 I used clearRect() to clear the whole canvas before I drew something--like the player or an enemy. I used the drawimage to draw the sprites and enemies. The code is a mess, because I did not want to leave the comfort of player.mjs. 
 <br>
